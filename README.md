@@ -21,7 +21,7 @@ Sentiment analysis is the process of determining the sentiment expressed in a pi
 1. Clone the repository:
 
     ```
-    git clone https://github.com/yourusername/sentiment-analysis.git
+    git clone https://github.com/theprince29/sentiment_analysis.git
     cd sentiment-analysis
     ```
 
