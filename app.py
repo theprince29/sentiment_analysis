@@ -41,7 +41,7 @@ def index():
 @app.route('/analyze', methods=["POST"])
 def take_action():
     text = request.form['text']
-    print(text)
+    # print(text)
     stemmed_text = stemming(text)
     custom_test = vec.transform([stemmed_text])
     prediction = loaded_model.predict(custom_test)
